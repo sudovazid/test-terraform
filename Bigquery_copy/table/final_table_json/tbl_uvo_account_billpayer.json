@@ -1,0 +1,104 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "UVO_ACCOUNT_BILL_PAYER_HIST_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "UVO_ACCOUNT_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "UVO_PERSON_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "UVO_PREMISE_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "UVO_PERSON_PREMISE_ID",
+    "type": "STRING"
+  },
+  {
+    "name": "CUSTOMER_BASE_TYPE",
+    "type": "STRING"
+  },
+  {
+    "name": "MOVEMENT_FLAG",
+    "type": "STRING"
+  },
+  {
+    "name": "VM_SERVICABLE",
+    "type": "STRING"
+  },
+  {
+    "name": "VM_TELCO_FLAG",
+    "type": "STRING"
+  },
+  {
+    "name": "VM_BROADBAND_FLAG",
+    "type": "STRING"
+  },
+  {
+    "name": "VM_TV_flag",
+    "type": "STRING"
+  },
+  {
+    "name": "VM_PAYTV_flag",
+    "type": "STRING"
+  },
+  {
+    "name": "VM_MOBILE_FLAG",
+    "type": "STRING"
+  },
+  {
+    "name": "O2_POSTPAY_FLAG",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "EFFECTIVE_FROM_TIMESTAMP",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "EFFECTIVE_TO_TIMESTAMP",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "DW_START_DT",
+    "type": "DATE"
+  },
+  {
+    "name": "DW_END_DT",
+    "type": "DATE"
+  },
+  {
+    "name": "DW_BATCH_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "DW_SRC_NAME",
+    "type": "STRING"
+  },
+  {
+    "name": "ENTITLED_FOR_BENEFITS_ON_PREMISE",
+    "type": "STRING"
+  },
+  {
+    "name": "created_dt",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "last_updated_dt",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "last_updated_by",
+    "type": "INTEGER"
+  }
+]

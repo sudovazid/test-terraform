@@ -1,0 +1,246 @@
+[
+  {
+    "name": "ok",
+    "type": "STRING"
+  },
+  {
+    "name": "Subscr_id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Contract_Seq_No",
+    "type": "INT64"
+  },
+  {
+    "name": "forecast_seq_no",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Order_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Contract_Start_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Cycle_End_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Cycle_Ends_With",
+    "type": "STRING"
+  },
+  {
+    "name": "Cycle_Tenure",
+    "type": "INTEGER"
+  },
+  {
+    "name": "PnL",
+    "type": "STRING"
+  },
+  {
+    "name": "Profit_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Channel_L1",
+    "type": "STRING"
+  },
+  {
+    "name": "Channel_L2",
+    "type": "STRING"
+  },
+  {
+    "name": "Order_AT_Subs_IncVAT_Grp1",
+    "type": "STRING"
+  },
+  {
+    "name": "Order_AT_Subs_IncVAT",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "On_AT_Subs_IncVAT",
+    "type": "STRING"
+  },
+  {
+    "name": "Order_Ins_Subs",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "Sim_Only_ind",
+    "type": "INT64"
+  },
+  {
+    "name": "MBB_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Tariff_Data_Allowance",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Tariff_Data_Grp",
+    "type": "STRING"
+  },
+  {
+    "name": "CCA_Ind",
+    "type": "INT64"
+  },
+  {
+    "name": "CCA_IncVAT",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "CCA_To_Date",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Device_Cost_Grp",
+    "type": "STRING"
+  },
+  {
+    "name": "Device_Manu",
+    "type": "STRING"
+  },
+  {
+    "name": "Device_Name",
+    "type": "STRING"
+  },
+  {
+    "name": "Birth_dt",
+    "type": "DATE"
+  },
+  {
+    "name": "OnNet_pc",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "OnNet_pc_Grp",
+    "type": "STRING"
+  },
+  {
+    "name": "Cust_Age_Grp",
+    "type": "STRING"
+  },
+  {
+    "name": "contract_fanboy",
+    "type": "STRING"
+  },
+  {
+    "name": "deposit",
+    "type": "STRING"
+  },
+  {
+    "name": "engagements",
+    "type": "STRING"
+  },
+  {
+    "name": "credit_band",
+    "type": "INTEGER"
+  },
+  {
+    "name": "competitor",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Survival_C_cd",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Survival_S_cd",
+    "type": "INTEGER"
+  },
+  {
+    "name": "forecast_method",
+    "type": "STRING"
+  },
+  {
+    "name": "Profit",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_ATM",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_CIC",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_Cust_COS",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_Other",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L2_ATM_Billed_Rev",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L2_Cust_COS_Network_D",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "Profit_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_ATM_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_CIC_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_Cust_COS_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_Other_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L2_ATM_Billed_Rev_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L2_Cust_COS_Network_D_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "U_Dom_Data",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "av_cycle_tenure",
+    "type": "INT64"
+  },
+  {
+    "name": "av_CCA_IncVAT",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "av_Order_AT_Subs_IncVAT",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "av_Order_Ins_Subs",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "created_dt",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "last_updated_dt",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "last_updated_by",
+    "type": "INTEGER"
+  }
+]

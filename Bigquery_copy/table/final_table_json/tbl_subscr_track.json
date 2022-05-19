@@ -1,0 +1,465 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "Subscr_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Eff_From_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Eff_To_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Subscr_Num",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Subscr_Type_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Cust_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Acct_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Accs_Method_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "PrePay_SPID_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "SPID_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Acquisition_Channel_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Prod_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Device_Type_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Needs_Based_Seg_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "PandL_Seg_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Value_Seg_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Prepyd_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "Acct_Type_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "IMEI",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Internal_Subscr_Sts",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "External_Subscr_Sts",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Internal_Base_Ind",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "External_Base_Ind",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "MVNO_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "ABS_Subscr_Sts",
+    "type": "STRING"
+  },
+  {
+    "name": "SMP_Subscr_Sts",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Test_MPN_Ind",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Mobile_Broadband_Ind",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "SIM_Serial_Num",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Prev_Prod_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Nursery_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "Temporary_Num",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Last_Num_Change_Rsn_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Prev_MPN",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "O2Money_Ind",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Prev_Internal_Base_Ind",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Prev_Internal_Base_Dt",
+    "type": "DATE"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Prev_External_Base_Ind",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Prev_External_Base_Dt",
+    "type": "DATE"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Prev_Needs_Based_Seg_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Prev_Value_Seg_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Topup_Seg_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Product_Tier",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Anniv_Start_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Anniv_End_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Bespoke_Tariff_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "Staff_Suppression_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "VIP_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "Billing_System",
+    "type": "STRING"
+  },
+  {
+    "name": "Rewards_Tier",
+    "type": "INTEGER"
+  },
+  {
+    "name": "MMS_Enabled_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "Flex_Tariff_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "Online_Cust_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "Action_Rsn_Name",
+    "type": "STRING"
+  },
+  {
+    "name": "Action_Rsn_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Agreement_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Sales_Channel_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Telematic_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "Email_Address_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Rewards_Opt_In_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "O2_Connect_Registered_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "O2_Connect_Active_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "PM_Merchant_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "PM_Usage_Sts",
+    "type": "STRING"
+  },
+  {
+    "name": "PM_Usage_Segment",
+    "type": "STRING"
+  },
+  {
+    "name": "LTE_Tariff_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "LTE_Bolton_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "Friends_And_Family_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "Prev_Device_Type_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Device_Type_Last_Changed_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Contract_Start_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Contract_End_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Most_Freq_Used_Device_Type_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "IMSI",
+    "type": "STRING"
+  },
+  {
+    "name": "Contract_Term",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Contract_Term_Unit",
+    "type": "STRING"
+  },
+  {
+    "name": "Eligible_For_Upgrade_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Early_Upgrade_Eligibility",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Eligible_For_Upgrade_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "Insurance_Product_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "CCA_Ind",
+    "type": "STRING"
+  },
+  {
+    "name": "Prev_Prod_Changed_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Email_Address",
+    "type": "STRING"
+  },
+  {
+    "name": "Blueroom_Email_Address_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Blueroom_Email_Address",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Resign_Channel_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Last_Interact_Sales_Channel_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Sold_Device_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Tariff_Offering_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Prev_Tariff_Offering_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Primary_Subscr_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "User_Group_Subscr_Type",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "User_Group_Joining_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "User_Group_Leaving_Dt",
+    "type": "DATE"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Sharing_User_Group_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Shareable_Bolton_Start_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Shareable_Bolton_Id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Prev_Tariff_Offering_Change_Dt",
+    "type": "DATE"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Tariff_Before_Joining_Group",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Identity_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "DW_Batch_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "DW_End_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "DW_Start_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "DW_Src_Name",
+    "type": "STRING"
+  },
+  {
+    "name": "created_dt",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "last_updated_dt",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "last_updated_by",
+    "type": "INTEGER"
+  }
+]

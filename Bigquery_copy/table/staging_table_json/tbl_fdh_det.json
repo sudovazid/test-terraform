@@ -1,0 +1,447 @@
+[
+    {
+      "name": "Subscr_id",
+      "type": "INTEGER"
+    },
+    {
+      "name": "order_id",
+      "type": "INT64"
+    },
+    {
+      "name": "order_num",
+      "type": "STRING",
+      "maxLength": "15"
+    },
+    {
+      "name": "Contract_Start_Dt",
+      "type": "DATE"
+    },
+    {
+      "name": "Cycle_End_Dt",
+      "type": "DATE"
+    },
+    {
+      "name": "Order_Type",
+      "type": "STRING",
+      "maxLength": "1"
+    },
+    {
+      "name": "Cycle_Age",
+      "type": "INT64"
+    },
+    {
+      "name": "Mth_end_dt",
+      "type": "DATE"
+    },
+    {
+      "name": "Contract_Seq_No",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Cycle_Ends_With",
+      "type": "STRING",
+      "maxLength": "25"
+    },
+    {
+      "name": "PnL",
+      "type": "STRING",
+      "maxLength": "3"
+    },
+    {
+      "name": "Profit_Type",
+      "type": "STRING",
+      "maxLength": "3"
+  
+    },
+    {
+      "name": "Billing_System",
+      "type": "STRING",
+      "maxLength": "100"
+    },
+    {
+      "name": "Channel_L1",
+      "type": "STRING",
+      "maxLength": "15"
+    },
+    {
+      "name": "Channel_L2",
+      "type": "STRING",
+      "maxLength": "15"
+    },
+    {
+      "name": "Order_AT_Subs_IncVAT_Grp1",
+      "type": "STRING",
+      "maxLength": "15"
+    },
+    {
+      "name": "Order_AT_Subs_IncVAT",
+      "type": "BIGDECIMAL",
+      "precision": "16",
+      "scale": "2"
+  
+    },
+    {
+      "name": "On_AT_Subs_IncVAT",
+      "type": "BIGDECIMAL",
+      "precision": "16",
+      "scale": "2"
+  
+    },
+    {
+      "name": "Order_Ins_Subs",
+      "type": "BIGDECIMAL",
+      "precision": "16",
+      "scale": "2"
+  
+    },
+    {
+      "name": "Sim_Only_ind",
+      "type": "BYTES"
+    },
+    {
+      "name": "Device_Type",
+      "type": "STRING",
+      "maxLength": "25"
+    },
+    {
+      "name": "Term",
+      "type": "BYTES"
+    },
+    {
+      "name": "Tariff_Data_Allowance",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Tariff_Data_Grp",
+      "type": "STRING",
+      "maxLength": "15"
+    },
+    {
+      "name": "Tariff_Mins_Allowance",
+      "type": "INTEGER"
+    },
+    {
+      "name": "CCA_Acct_Id",
+      "type": "INTEGER"
+    },
+    {
+      "name": "CCA_Ind",
+      "type": "BYTES"
+    },
+    {
+      "name": "CCA_IncVAT",
+      "type": "BIGDECIMAL",
+      "precision": "16",
+      "scale": "2"
+    },
+    {
+      "name": "CCA_To_Date",
+      "type": "BIGDECIMAL",
+      "precision": "16",
+      "scale": "2"
+    },
+    {
+      "name": "Device_Cost_Grp",
+      "type": "STRING",
+      "maxLength": "15"
+    },
+    {
+      "name": "Device_Manu",
+      "type": "STRING",
+      "maxLength": "30"
+    },
+    {
+      "name": "Device_Name",
+      "type": "STRING",
+      "maxLength":"50"
+    },
+    {
+      "name": "Birth_dt",
+      "type": "DATE"
+    },
+    {
+      "name": "OnNet_pc",
+      "type": "BIGDECIMAL",
+      "precision": "16",
+      "scale":"2"
+    },
+    {
+      "name": "Contract_fanboy",
+      "type": "STRING",
+      "maxLength":"50"
+    },
+    {
+      "name": "Deposit",
+      "type": "STRING",
+      "maxLength":"10"
+    },
+    {
+      "name": "Engagements",
+      "type": "STRING",
+      "maxLength": "15"
+    },
+    {
+      "name": "Credit_band",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Competitor",
+      "type": "INTEGER"
+    },
+    {
+      "name": "credit_score",
+      "type": "INTEGER"
+    },
+    {
+      "name": "CCA_moved",
+      "type": "BIGDECIMAL",
+      "precision": "16",
+      "scale":"2"
+    },
+    {
+      "name": "spare1",
+      "type": "INTEGER"
+    },
+    {
+      "name": "spare2",
+      "type": "INTEGER"
+    },
+    {
+      "name": "spare3",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "spare4",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "spare5",
+      "type": "STRING",
+      "maxLength":"50"
+    },
+    {
+      "name": "spare6",
+      "type": "STRING",
+      "maxLength":"50"
+    },
+    {
+      "name": "Profit",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L1_ATM",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L1_CIC",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L1_Cust_COS",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L1_Other",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "early_up_fee",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_ATM_Billed_Rev",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_ATM_IC_Rev",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_ATM_IC_Cost",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_ATM_Roaming_Cost",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_ATM_Other",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_CIC_subsidy",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_CIC_SIM",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_CIC_GCB",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_CIC_RevShare",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_CIC_RiskReward",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_CIC_App",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_CIC_Var",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_CIC_Other_Comm",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_Cust_COS_Bad_Debt",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_Cust_COS_Debt",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_Cust_COS_Insurance",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_Cust_COS_SAF",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_Cust_COS_CS",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_Cust_COS_Network_V",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_Cust_COS_Network_S",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_Cust_COS_Network_D",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_Other_Media",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L2_Other_Overheads",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L3_Other_OH_Central",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L3_Other_OH_Functional",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L3_Device_Cost",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L3_Device_Rev",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L3_GCB_Overlay",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "L3_ATM_BR_Subs_Discounts",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    },
+    {
+      "name": "U_Dom_Data",
+      "type": "BIGDECIMAL",
+      "precision":"16",
+      "scale":"2"
+    }
+  ]

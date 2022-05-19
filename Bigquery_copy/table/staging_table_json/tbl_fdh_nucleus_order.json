@@ -1,0 +1,129 @@
+[
+  {
+    "name": "ORDER_ID",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+      "name": "ORDER_NUM",
+      "type": "STRING",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "SUBSCRIBER_NUM",
+      "type": "STRING",
+      "mode": "NULLABLE"
+  },
+  {
+    "name": "EVENT_TYPE",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+      "name": "EVENT_DT",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "CONNECTION_SUB_TYPE",
+      "type": "STRING",
+      "mode": "NULLABLE"
+  },
+  {
+    "name": "DISCONNECTION_REASON",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+      "name": "CONTRACT_START_DT",
+      "type": "DATE",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "CHANNEL_ID",
+      "type": "STRING",
+      "mode": "NULLABLE"
+  },
+  {
+    "name": "TARIFF_CD",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+      "name": "CCA_TERM",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "CCA_RRP",
+      "type": "BIGDECIMAL",
+      "precision": "38",
+      "scale": "6",
+      "mode": "NULLABLE"
+  },
+  {
+    "name": "UPFRONT_PAYMENT",
+    "type": "BIGDECIMAL",
+      "precision": "38",
+      "scale": "6",
+    "mode": "NULLABLE"
+  },
+  {
+      "name": "ORIGINAL_LOAN_VALUE",
+      "type": "BIGDECIMAL",
+      "precision": "38",
+      "scale": "6",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "HANDSET_SKU",
+      "type": "STRING",
+      "mode": "NULLABLE"
+  },
+  {
+    "name": "IMEI",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+      "name": "L6_CHANNEL",
+      "type": "STRING",
+      "mode": "NULLABLE"
+  },
+  {
+    "name": "REF_CHANNEL_HIER_ID",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+      "name": "REF_PROD_CAT_CON_ID",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "REF_DEVICE_ID",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+  },
+  {
+    "name": "SRC_FILE_ID",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+      "name": "SRC_FILE_RECORD_NUM",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "LOAD_DT",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE"
+  },
+  {
+    "name": "MODIFICATION_DT",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+
+]

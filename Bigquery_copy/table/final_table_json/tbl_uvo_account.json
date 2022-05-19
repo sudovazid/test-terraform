@@ -1,0 +1,68 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "UVO_ACCOUNT_HIST_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "UVO_ACCOUNT_ID",
+    "type": "STRING"
+  },
+  {
+    "name": "VM_ICOMS_ACCOUNT_UID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "VM_MOBILE_CUSTOMER_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "VM_CUSTOMER_ACCOUNT_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "O2_CUSTOMER_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "EFFECTIVE_FROM_TIMESTAMP",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "EFFECTIVE_TO_TIMESTAMP",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "DW_START_DT",
+    "type": "DATE"
+  },
+  {
+    "name": "DW_END_DT",
+    "type": "DATE"
+  },
+  {
+    "name": "DW_BATCH_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "DW_SRC_NAME",
+    "type": "STRING"
+  },
+  {
+    "name": "created_dt",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "last_updated_dt",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "last_updated_by",
+    "type": "INTEGER"
+  }
+]

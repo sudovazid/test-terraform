@@ -1,0 +1,294 @@
+[
+  {
+    "name": "Profit_Flag",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Order_dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Order_id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Order_line_num",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Order_num",
+    "type": "STRING"
+  },
+  {
+    "name": "Subscr_id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Acct_id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Cust_id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "PnL",
+    "type": "STRING"
+  },
+  {
+    "name": "Return_Ind",
+    "type": "INTEGER"
+  },
+  {
+    "name": "order_type",
+    "type": "STRING"
+  },
+  {
+    "name": "Contract_start_dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Contract_seq_no",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Channel_id",
+    "type": "INT64"
+  },
+  {
+    "name": "Channel_l1",
+    "type": "STRING"
+  },
+  {
+    "name": "Channel_l2",
+    "type": "STRING"
+  },
+  {
+    "name": "Tariff_offering_id",
+    "type": "STRING"
+  },
+  {
+    "name": "CCA_Acct_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "CCA_Ind",
+    "type": "INT64"
+  },
+  {
+    "name": "CCA_incvat",
+    "type": "NUMERIC"
+  },
+  {
+    "name": "Term",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Sim_Only_ind",
+    "type": "INTEGER"
+  },
+  {
+    "name": "device_type",
+    "type": "STRING"
+  },
+  {
+    "name": "Order_AT_Subs_IncVAT_Grp1",
+    "type": "STRING"
+  },
+  {
+    "name": "Order_AT_Subs_IncVAT",
+    "type": "NUMERIC"
+  },
+  {
+    "name": "Tariff_Data_Allowance",
+    "type": "NUMERIC"
+  },
+  {
+    "name": "Tariff_Data_Grp",
+    "type": "STRING"
+  },
+  {
+    "name": "Tariff_mins_allowance",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Order_Ins_Subs",
+    "type": "NUMERIC"
+  },
+  {
+    "name": "Device_Cost_Grp",
+    "type": "STRING"
+  },
+  {
+    "name": "SKU_ID",
+    "type": "STRING"
+  },
+  {
+    "name": "SKU_Cd",
+    "type": "INTEGER"
+  },
+  {
+    "name": "imei",
+    "type": "STRING"
+  },
+  {
+    "name": "Device_Manu",
+    "type": "STRING"
+  },
+  {
+    "name": "Device_Name",
+    "type": "STRING"
+  },
+  {
+    "name": "L3_device_cost",
+    "type": "NUMERIC"
+  },
+  {
+    "name": "Upfront_Payment_Amt_ex_vat",
+    "type": "NUMERIC"
+  },
+  {
+    "name": "Billing_system",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Birth_dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Deposit_Amt",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Credit_score",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Order_dt_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Order_ID_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Order_Line_Num_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Order_type_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Contract_Start_dt_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "contract_seq_no_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "channel_id_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Channel_L1_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Channel_L2_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Tariff_Offering_Id_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "CCA_Acct_Id_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "CCA_Ind_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "CCA_IncVAT_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Term_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "sim_only_ind_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Order_AT_Subs_IncVAT_bef_Grp1",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Order_AT_Subs_IncVAT_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "tariff_data_allowance_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Tariff_Data_bef_Grp",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Order_Ins_Subs_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Device_Cost_Grp_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "SKU_Id_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "SKU_Cd_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "IMEI_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Device_Manu_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Device_Name_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "L3_Device_Cost_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Upfront_Payment_Amt_ex_vat_bef",
+    "type": "INTEGER"
+  },
+  {
+    "name": "days_since_last_contract",
+    "type": "INTEGER"
+  },
+  {
+    "name": "months_since_last_contract",
+    "type": "INTEGER"
+  },
+  {
+    "name": "upgrade_type",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Device_Condition",
+    "type": "INTEGER"
+  }
+]

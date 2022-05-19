@@ -1,0 +1,649 @@
+[
+  {
+    "name": "SUBSCRIBER_NUM",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+      "name": "EVENT_DT",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "PREV_MONTHLY_AIRTIME_VALUE_EXCL_VAT",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "PREV_MONTHLY_AIRTIME_EXCL_VAT_LESS_DISCOUNT_EXCL_VAT",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_CONTRACT_CCA_EXCL_VAT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_MONTHLY_CCA_EXCL_VAT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_CONTRACT_AIRTIME",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_CCA_TENURE",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_HARDWARE_COST",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_GCB_COMMISSION",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_OTHER_COMMISSION",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_HANDSET_VF",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_COMMISSIONS_TOTAL",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_TOTAL_CONTRACT_REVENUE_EXCL_VAT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_HANDSET_UPFRONT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_CONTRACT_TENURE",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_HANDSET_UPFRONT_DISCOUNT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_HANDSET_MARGIN",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_CONTRACT_CIC_EXCL_CCA",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_REVENUE_SHARE_COMMISSION_RATE",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_REVENUE_SHARE_COMMISSION",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_MONTHLY_AIRTIME_VALUE_EXCL_VAT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_MONTHLY_AIRTIME_EXCL_VAT_LESS_DISCOUNT_EXCL_VAT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "CURR_CONTRACT_CCA_EXCL_VAT",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_MONTHLY_CCA_EXCL_VAT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_CONTRACT_AIRTIME",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "CURR_CCA_TENURE",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_HARDWARE_COST",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_GCB_COMMISSION",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "CURR_OTHER_COMMISSION",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_HANDSET_VF",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_COMMISSIONS_TOTAL",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "CURR_TOTAL_CONTRACT_REVENUE_EXCL_VAT",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_HANDSET_UPFRONT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_CONTRACT_TENURE",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "CURR_HANDSET_UPFRONT_DISCOUNT",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_HANDSET_MARGIN",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_CONTRACT_CIC_EXCL_CCA",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_NET_SALES_VALUE",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "NET_SALES_VALUE",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "LOSS_NET_SALES_VALUE",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "RETENTION_DIFFERENCES_AIRTIME_EXCL_VAT",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "RETENTION_DIFFERENCES_CCA",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CURR_REVENUE_SHARE_COMMISSION_RATE",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "CURR_REVENUE_SHARE_COMMISSION",
+      "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "VAR_MONTHLY_AIRTIME_INCL_VAT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "VAR_MONTHLY_AIRTIME_EXCL_VAT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "VAR_DISCOUNT_INCL_VAT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_DICOUNT_EXCL_VAT",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_MONTHLY_AIRTIME_INCL_DISCOUNT_INCL_VAT",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "VAR_MONTHLY_AIRTIME_INCL_DISCOUNT_EXCL_VAT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_MONTHLY_CCA_INCL_VAT",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_MONTHLY_CCA_EXCL_VAT",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "VAR_MONTHLY_REVENUE_INCL_VAT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_MONTHLY_REVENUE_EXCL_VAT",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_HANDSET_UPFRONT",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "VAR_HANDSET_UPFRONT_LIST",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_HANDSET_UPFRONT_DISCOUNT",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_HANDSET_COST",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "VAR_HANDSET_VF",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_HANDSET_SUBSIDY_EXCL_VF",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_HANDSET_SUBSIDY",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "VAR_HANDSET_MARGIN",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_COMMISSION_GCB",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "VAR_COMMISSION_OTHER",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_COMMISSION_REV_SHARE_RATE",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_COMMISSION_REV_SHARE",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "VAR_COMMISSION_TOTAL",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_CONTRACT_AIRTIME",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_CONTRACT_CCA",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "VAR_CONTRACT_REVENUE",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_CONTRACT_CIC",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_CONTRACT_CIC_INCL_CCA",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "VAR_CONTRACT_REVENUE_INCL_VAT",
+        "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_CONTRACT_AIRTIME_INCL_VAT",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "VAR_CONTRACT_CCA_INCL_VAT",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "PREV_REF_CHANNEL_HIER_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "PREV_REF_PROD_CAT_CON_ID",
+          "type": "INTEGER",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "PREV_REF_DEVICE_ID",
+          "type": "INTEGER",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "CURR_L6_CHANNEL",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "CURR_PRODUCT_CD",
+          "type": "STRING",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "CURR_HANDSET_SKU",
+          "type": "STRING",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "CURR_REF_CHANNEL_HIER_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "CURR_REF_PROD_CAT_CON_ID",
+          "type": "INTEGER",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "CURR_REF_DEVICE_ID",
+          "type": "INTEGER",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "PREV_L6_CHANNEL",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "PREV_PRODUCT_CD",
+          "type": "STRING",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "PREV_HANDSET_SKU",
+          "type": "STRING",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "RETENTION_DIFFERENCES_HARDWARE_COST",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "RETENTION_DIFFERENCES_COMMISSIONS",
+          "type": "BIGDECIMAL",
+      "precision": "36",
+      "scale": "2",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "MOVEMENT",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "SRC_FILE_ID",
+          "type": "INTEGER",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "SRC_FILE_RECORD_NUM",
+          "type": "INTEGER",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "EVENT_TYPE",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "REF_DATA_MOVEMENT_TYPE_ID",
+          "type": "INTEGER",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "LOAD_DT",
+          "type": "TIMESTAMP",
+          "mode": "NULLABLE"
+      },
+      {
+        "name": "MODIFICATION_DT",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+      },
+      {
+          "name": "MOVEMENT_ID",
+          "type": "INTEGER",
+          "mode": "NULLABLE"
+      },
+      {
+          "name": "SUBSCRIBER_EVENT_DT",
+          "type": "DATE",
+          "mode": "NULLABLE"
+      }
+]

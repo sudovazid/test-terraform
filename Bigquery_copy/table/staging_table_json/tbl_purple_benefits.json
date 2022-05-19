@@ -1,0 +1,57 @@
+[
+  {
+      "name": "SUBSCR_ID",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "MPN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CUSTOMER_BASE_TYPE",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VM_BENEFIT_MARKER",
+      "type": "STRING",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "BENEFIT_ACCEPTANCE_FLAG",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "BENEFIT_ACCEPTANCE_TIMESTAMP",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "O2_BENEFIT_MARKER",
+      "type": "STRING",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "XSELL_FLAG",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "OVERLAP_FLAG",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREMISE_MATCHED",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREMISE_FLAG",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    }
+]

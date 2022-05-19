@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Subscr_id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "No_of_cycle_to_date_w_profit",
+    "type": "INT64"
+  },
+  {
+    "name": "No_of_cycle_to_date",
+    "type": "INT64"
+  },
+  {
+    "name": "No_of_cycles_Forecast",
+    "type": "INT64"
+  },
+  {
+    "name": "Total_no_of_cycles",
+    "type": "INT64"
+  },
+  {
+    "name": "Profit_CLV",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_ATM",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_CIC",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_Cust_COS",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_Other",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L2_ATM_Billed_Rev",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "Profit_CLV_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_ATM_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_CIC_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_Cust_COS_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L1_Other_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "L2_ATM_Billed_Rev_depreciated",
+    "type": "DECIMAL"
+  },
+  {
+    "name": "U_Dom_Data",
+    "type": "DECIMAL"
+  }
+]

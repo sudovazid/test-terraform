@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Subscr_id",
+    "type": "BIGDECIMAL"
+  },
+  {
+    "name": "order_id",
+    "type": "INT64"
+  },
+  {
+    "name": "order_num",
+    "type": "STRING"
+  },
+  {
+    "name": "Contract_Start_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Cycle_End_Dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Order_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Cycle_Age",
+    "type": "INT64"
+  },
+  {
+    "name": "Mth_end_dt",
+    "type": "DATE"
+  },
+  {
+    "name": "Contract_Seq_No",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Cycle_Ends_With",
+    "type": "STRING"
+  },
+  {
+    "name": "PnL",
+    "type": "STRING"
+  },
+  {
+    "name": "Profit_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Billing_System",
+    "type": "STRING"
+  },
+  {
+    "name": "Channel_L1",
+    "type": "STRING"
+  },
+  {
+    "name": "Channel_L2",
+    "type": "STRING"
+  },
+  {
+    "name": "Order_AT_Subs_IncVAT_Grp1",
+    "type": "STRING"
+  },
+  {
+    "name": "Order_AT_Subs_IncVAT",
+    "type": "decimal"
+  },
+  {
+    "name": "On_AT_Subs_IncVAT",
+    "type": "decimal"
+  },
+  {
+    "name": "Order_Ins_Subs",
+    "type": "decimal"
+  },
+  {
+    "name": "Sim_Only_ind",
+    "type": "INT64"
+  },
+  {
+    "name": "Device_Type",
+    "type": "STRING"
+  },
+  {
+    "name": "Term",
+    "type": "INT64"
+  },
+  {
+    "name": "Tariff_Data_Allowance",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Tariff_Data_Grp",
+    "type": "STRING"
+  },
+  {
+    "name": "Tariff_Mins_Allowance",
+    "type": "INTEGER"
+  },
+  {
+    "name": "CCA_Acct_Id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "CCA_Ind",
+    "type": "INT64"
+  },
+  {
+    "name": "CCA_IncVAT",
+    "type": "decimal"
+  },
+  {
+    "name": "CCA_To_Date",
+    "type": "decimal"
+  },
+  {
+    "name": "Device_Cost_Grp",
+    "type": "STRING"
+  },
+  {
+    "name": "Device_Manu",
+    "type": "STRING"
+  },
+  {
+    "name": "Device_Name",
+    "type": "STRING"
+  },
+  {
+    "name": "Birth_dt",
+    "type": "DATE"
+  },
+  {
+    "name": "OnNet_pc",
+    "type": "decimal"
+  },
+  {
+    "name": "Contract_fanboy",
+    "type": "STRING"
+  },
+  {
+    "name": "Deposit",
+    "type": "STRING"
+  },
+  {
+    "name": "Engagements",
+    "type": "STRING"
+  },
+  {
+    "name": "Credit_band",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Competitor",
+    "type": "INTEGER"
+  },
+  {
+    "name": "credit_score",
+    "type": "INTEGER"
+  },
+  {
+    "name": "CCA_moved",
+    "type": "decimal"
+  },
+  {
+    "name": "spare1",
+    "type": "INTEGER"
+  },
+  {
+    "name": "spare2",
+    "type": "INTEGER"
+  },
+  {
+    "name": "spare3",
+    "type": "decimal"
+  },
+  {
+    "name": "spare4",
+    "type": "decimal"
+  },
+  {
+    "name": "spare5",
+    "type": "STRING"
+  },
+  {
+    "name": "spare6",
+    "type": "STRING"
+  },
+  {
+    "name": "Profit",
+    "type": "decimal"
+  },
+  {
+    "name": "L1_ATM",
+    "type": "decimal"
+  },
+  {
+    "name": "L1_CIC",
+    "type": "decimal"
+  },
+  {
+    "name": "L1_Cust_COS",
+    "type": "decimal"
+  },
+  {
+    "name": "L1_Other",
+    "type": "decimal"
+  },
+  {
+    "name": "early_up_fee",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_ATM_Billed_Rev",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_ATM_IC_Rev",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_ATM_IC_Cost",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_ATM_Roaming_Cost",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_ATM_Other",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_CIC_subsidy",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_CIC_SIM",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_CIC_GCB",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_CIC_RevShare",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_CIC_RiskReward",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_CIC_App",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_CIC_Var",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_CIC_Other_Comm",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_Cust_COS_Bad_Debt",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_Cust_COS_Debt",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_Cust_COS_Insurance",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_Cust_COS_SAF",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_Cust_COS_CS",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_Cust_COS_Network_V",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_Cust_COS_Network_S",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_Cust_COS_Network_D",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_Other_Media",
+    "type": "decimal"
+  },
+  {
+    "name": "L2_Other_Overheads",
+    "type": "decimal"
+  },
+  {
+    "name": "L3_Other_OH_Central",
+    "type": "decimal"
+  },
+  {
+    "name": "L3_Other_OH_Functional",
+    "type": "decimal"
+  },
+  {
+    "name": "L3_Device_Cost",
+    "type": "decimal"
+  },
+  {
+    "name": "L3_Device_Rev",
+    "type": "decimal"
+  },
+  {
+    "name": "L3_GCB_Overlay",
+    "type": "decimal"
+  },
+  {
+    "name": "L3_ATM_BR_Subs_Discounts",
+    "type": "decimal"
+  },
+  {
+    "name": "U_Dom_Data",
+    "type": "decimal"
+  },
+  {
+    "name": "created_dt",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "last_updated_dt",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "last_updated_by",
+    "type": "INTEGER"
+  }
+]
